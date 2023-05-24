@@ -1,0 +1,88 @@
+/* головний колір тексту #212121; */
+/* другорядний колір тексту #757575; */
+/* білий колір #FFFFFF; */
+/* акцент та колір фона #2196F3; */
+/* з прозорістю rgba(255, 255, 255, 0.6); */
+/* колір фону  #F5F5F5; */
+
+.body {
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: #F5F5F5;
+    color: #212121;
+    
+}
+
+.header {
+    font-weight: 500;
+}
+
+.list {
+    list-style: none;;
+}
+
+/* Header */
+.logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196F3;
+}
+
+.logo-span {
+    color: #000000;
+}
+
+.logo:hover {
+    color: #000000;
+}
+.logo-span:hover {
+    color: #2196F3;
+}
+
+.link {
+   color: #212121;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.contact-link {
+    color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-size: 16px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+/* quality */
+
+.quality-title {
+    font-weight: 700;
+}
+
+.quality-text {
+    color: #757575;
+}
