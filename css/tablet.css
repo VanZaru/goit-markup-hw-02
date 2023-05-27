@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 935px) and (min-width: 415px) {
+  .header {
+    height: 90px;
+    background-color: #bfbbb8;
+  }
+  .logo {
+    margin-left: 15px;
+  }
+  .header-menu {
+    margin-left: 2px;
+    padding-left: 10px;
+  }
+  .menu-item {
+     padding: 0px 25px 0px 0px;
+  }
+  /* Main */
+  /* Hero */
+  .hero {
+    height: 350px;
+  }
+  .hero-title {
+    font-size: 45px;
+    padding-top: 100px;
+  }
+  .hero-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  /* qality */
+  .quality {
+    padding-bottom: 30px;
+  }
+  .quality-list {
+    display: flex;
+    
+  }
+ 
+  .quality-title {
+    padding-bottom: 2px;
+  }
+  /* Work */
+  .work-title {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+  .work-list {
+    display: flex;
+    flex-direction: column;  
+  }
+  
+  .work-item {
+    text-align: center;
+    
+    padding-bottom: 15px;
+  }
+    /* Team */
+    .team {
+      margin-top: 70px;
+      padding-bottom: 50px;
+    }
+    .team-title {
+      padding-top: 20px;
+    }
+    .team-list { 
+        display: flex; 
+        flex-wrap: wrap;
+        margin-left: 105px;
+      
+    }
+    .team-card {
+      margin-bottom: 15px;
+      margin-left: 30px;
+    }
+    /* Footer */
+    .address {
+      display: flex;
+      margin-left: 15px;
+    }
+
+    /* Portfolio */
+    .portfolio-filter{
+      margin-top: 45px;
+    }
+    .filter-btn.primary {
+      padding: 6px 25px;
+    }
+    .filter-btn {
+      margin-right: 10px;
+      margin-bottom: 4px;
+      padding: 6px 22px;
+    }
+    .portfolio {
+      margin-bottom: 5px;
+      display: flex;
+    }
+    .portfolio-item { 
+      margin: 0px 10px 15px 30px;
+    }
+}
