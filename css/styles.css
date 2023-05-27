@@ -389,6 +389,10 @@ body {
   margin-bottom: 30px;
 }
 
+.portfolio-title {
+  padding: 20px 0px 0px 24px;
+}
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
@@ -396,4 +400,5 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
+  padding: 4px 0px 20px 24px;
 }
