@@ -95,6 +95,11 @@ body {
   align-items: center;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -144,7 +149,9 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
-
+.contact-container {
+  margin-left: 270px;
+}
 .contact {
   display: flex;
   justify-content: flex-end;
@@ -162,8 +169,10 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
-
-.menu-item.tel {
+.menu-item_mail {
+  padding-right: 50px;
+}
+.menu-item_tel {
   padding: 0px;
 }
 /* Hero */
@@ -185,7 +194,7 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -277,7 +286,6 @@ body {
 
 .team-list {
   display: flex;
-  
 }
 
 .team-title {
@@ -433,4 +441,3 @@ body {
   color: var(--title-text-color);
   padding: 4px 0px 20px 24px;
 }
-
